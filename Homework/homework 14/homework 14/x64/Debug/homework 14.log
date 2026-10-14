@@ -1,0 +1,3 @@
+﻿  homework 14.cpp
+E:\домашние и классные роботы Visual Studio\homework 14\homework 14\homework 14.cpp(85,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  homework 14.vcxproj -> E:\домашние и классные роботы Visual Studio\homework 14\x64\Debug\homework 14.exe

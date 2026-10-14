@@ -1,0 +1,3 @@
+﻿  class 6.cpp
+E:\домашние и классные роботы Visual Studio\class 6\class 6\class 6.cpp(32,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  class 6.vcxproj -> E:\домашние и классные роботы Visual Studio\class 6\x64\Debug\class 6.exe

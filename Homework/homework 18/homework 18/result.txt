@@ -1,0 +1,5 @@
+Lines: 5
+Characters: 77
+Digits: 10
+Vowels: 4
+Consonants: 44

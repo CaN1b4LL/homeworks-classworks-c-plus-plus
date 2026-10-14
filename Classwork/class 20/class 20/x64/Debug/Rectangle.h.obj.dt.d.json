@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\домашние и классные роботы visual studio\\class 20\\class 20\\rectangle.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "e:\\домашние и классные роботы visual studio\\class 20\\class 20\\point.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

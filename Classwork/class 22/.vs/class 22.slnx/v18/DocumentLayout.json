@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D92AA7E-931B-4C0C-A807-0C0153A29D90}|class 22\\class 22.vcxproj|E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\class 22.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7D92AA7E-931B-4C0C-A807-0C0153A29D90}|class 22\\class 22.vcxproj|solutionrelative:class 22\\class 22.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D92AA7E-931B-4C0C-A807-0C0153A29D90}|class 22\\class 22.vcxproj|E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\Counter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7D92AA7E-931B-4C0C-A807-0C0153A29D90}|class 22\\class 22.vcxproj|solutionrelative:class 22\\Counter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D92AA7E-931B-4C0C-A807-0C0153A29D90}|class 22\\class 22.vcxproj|E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\Counter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7D92AA7E-931B-4C0C-A807-0C0153A29D90}|class 22\\class 22.vcxproj|solutionrelative:class 22\\Counter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Counter.cpp",
+              "DocumentMoniker": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\Counter.cpp",
+              "RelativeDocumentMoniker": "class 22\\Counter.cpp",
+              "ToolTip": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\Counter.cpp",
+              "RelativeToolTip": "class 22\\Counter.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-15T16:36:07.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Counter.h",
+              "DocumentMoniker": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\Counter.h",
+              "RelativeDocumentMoniker": "class 22\\Counter.h",
+              "ToolTip": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\Counter.h",
+              "RelativeToolTip": "class 22\\Counter.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-15T16:35:35.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "class 22.cpp",
+              "DocumentMoniker": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\class 22.cpp",
+              "RelativeDocumentMoniker": "class 22\\class 22.cpp",
+              "ToolTip": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 22\\class 22\\class 22.cpp",
+              "RelativeToolTip": "class 22\\class 22.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-15T16:18:14.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

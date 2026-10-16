@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\домашние и классные роботы visual studio\\class 22\\class 22\\counter.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "e:\\домашние и классные роботы visual studio\\class 22\\class 22\\counter.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

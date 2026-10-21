@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B34C57E2-429F-4DE3-94F8-A8FD7B7EC9A7}|class 23\\class 23.vcxproj|E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B34C57E2-429F-4DE3-94F8-A8FD7B7EC9A7}|class 23\\class 23.vcxproj|solutionrelative:class 23\\Point.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34C57E2-429F-4DE3-94F8-A8FD7B7EC9A7}|class 23\\class 23.vcxproj|E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B34C57E2-429F-4DE3-94F8-A8FD7B7EC9A7}|class 23\\class 23.vcxproj|solutionrelative:class 23\\Point.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34C57E2-429F-4DE3-94F8-A8FD7B7EC9A7}|class 23\\class 23.vcxproj|E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\class 23.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B34C57E2-429F-4DE3-94F8-A8FD7B7EC9A7}|class 23\\class 23.vcxproj|solutionrelative:class 23\\class 23.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Point.cpp",
+              "DocumentMoniker": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\Point.cpp",
+              "RelativeDocumentMoniker": "class 23\\Point.cpp",
+              "ToolTip": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\Point.cpp",
+              "RelativeToolTip": "class 23\\Point.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-17T16:23:26.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Point.h",
+              "DocumentMoniker": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\Point.h",
+              "RelativeDocumentMoniker": "class 23\\Point.h",
+              "ToolTip": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\Point.h",
+              "RelativeToolTip": "class 23\\Point.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-10-17T16:23:14.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "class 23.cpp",
+              "DocumentMoniker": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\class 23.cpp",
+              "RelativeDocumentMoniker": "class 23\\class 23.cpp",
+              "ToolTip": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 23\\class 23\\class 23.cpp",
+              "RelativeToolTip": "class 23\\class 23.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-17T16:07:54.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

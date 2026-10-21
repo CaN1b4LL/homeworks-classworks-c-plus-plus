@@ -1,0 +1,7 @@
+﻿  MyString.cpp
+E:\домашние и классные роботы Visual Studio\class 24\class 24\MyString.cpp(20,26): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+E:\домашние и классные роботы Visual Studio\class 24\class 24\MyString.cpp(56,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\домашние и классные роботы Visual Studio\class 24\class 24\MyString.cpp(75,18): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  class 24.cpp
+  Создание кода...
+  class 24.vcxproj -> E:\домашние и классные роботы Visual Studio\class 24\x64\Debug\class 24.exe

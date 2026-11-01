@@ -1,0 +1,17 @@
+﻿  class 27.cpp
+E:\домашние и классные роботы Visual Studio\class 27\class 27\MySrack.h(104,13): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  (компиляция исходного файла "class%2027.cpp")
+      E:\домашние и классные роботы Visual Studio\class 27\class 27\MySrack.h(104,13):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\домашние и классные роботы Visual Studio\class 27\class 27\class 27.cpp(9,15):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "MyStack<int>"
+          E:\домашние и классные роботы Visual Studio\class 27\class 27\MySrack.h(103,1):
+          во время компиляции функции-члена класс шаблон "void MyStack<int>::push(const T &)"
+          with
+          [
+              T=int
+          ]
+              E:\домашние и классные роботы Visual Studio\class 27\class 27\class 27.cpp(15,11):
+              см. первую ссылку на MyStack<int>::push "main"
+  
+  class 27.vcxproj -> E:\домашние и классные роботы Visual Studio\class 27\x64\Debug\class 27.exe

@@ -1,0 +1,12 @@
+﻿  class 26.cpp
+E:\домашние и классные роботы Visual Studio\class 26\class 26\test.h(61,21): error C2110: '+': невозможно сложить два указателя
+  (компиляция исходного файла "class%2026.cpp")
+      E:\домашние и классные роботы Visual Studio\class 26\class 26\test.h(61,21):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          E:\домашние и классные роботы Visual Studio\class 26\class 26\class 26.cpp(10,12):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Test<int *>"
+          E:\домашние и классные роботы Visual Studio\class 26\class 26\test.h(60,1):
+          во время компиляции функции-члена класс шаблон "Test<int *> Test<int *>::operator +(const Test<int *> &) const"
+              E:\домашние и классные роботы Visual Studio\class 26\class 26\class 26.cpp(11,11):
+              см. первую ссылку на Test<int *>::operator + "main"
+  

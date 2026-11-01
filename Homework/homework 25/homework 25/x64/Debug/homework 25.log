@@ -1,0 +1,4 @@
+﻿  homework 25.cpp
+E:\домашние и классные роботы Visual Studio\homework 25\homework 25\homework 25.cpp(81,10): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+E:\домашние и классные роботы Visual Studio\homework 25\homework 25\homework 25.cpp(86,17): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  homework 25.vcxproj -> E:\домашние и классные роботы Visual Studio\homework 25\x64\Debug\homework 25.exe

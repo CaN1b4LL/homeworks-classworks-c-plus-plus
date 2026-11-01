@@ -1,0 +1,5 @@
+﻿  main.cpp
+E:\домашние и классные роботы Visual Studio\class 25\class 25\main.cpp(33,11): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+E:\домашние и классные роботы Visual Studio\class 25\class 25\main.cpp(38,16): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+E:\домашние и классные роботы Visual Studio\class 25\class 25\main.cpp(39,15): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  class 25.vcxproj -> E:\домашние и классные роботы Visual Studio\class 25\class 25\x64\Debug\class 25.exe

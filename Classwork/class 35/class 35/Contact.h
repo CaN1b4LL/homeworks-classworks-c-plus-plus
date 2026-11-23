@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <string>
+#include <fstream>
 using namespace std;
 
 class Contact
@@ -25,5 +26,7 @@ public:
 	void setAddress(const string& newAddress);
 	void setActivity(const string& newActivity);
 	void print()const;
+	void writeToFile(fstream& fs) const;
+	void readFromFile(fstream& fs);
 };
 

@@ -9,6 +9,8 @@ class Directory
 {
 private:
 	string filename;
+	Contact contacts[400];
+	int count;
 public:
 	Directory(string filename);
 	void addContact(const Contact& newContact);
@@ -17,5 +19,8 @@ public:
 	void searchByOwner(const string& targetOwner)const;
 	void searchByPhone(const string& targetPhone)const;
 	void searchByActivity(const string& targetActivity)const;
+	void loadFromFile();
+	void saveToFile()const;
+
 };
 

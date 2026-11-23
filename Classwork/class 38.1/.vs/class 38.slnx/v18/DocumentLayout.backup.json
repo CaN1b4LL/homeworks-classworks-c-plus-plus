@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 38\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{301A56A9-8BFB-44A9-BEBA-B91F39F13BBC}|class 38\\class 38.vcxproj|E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 38\\class 38\\class 38.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{301A56A9-8BFB-44A9-BEBA-B91F39F13BBC}|class 38\\class 38.vcxproj|solutionrelative:class 38\\class 38.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "class 38.cpp",
+              "DocumentMoniker": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 38\\class 38\\class 38.cpp",
+              "RelativeDocumentMoniker": "class 38\\class 38.cpp",
+              "ToolTip": "E:\\\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0435 \u0438 \u043A\u043B\u0430\u0441\u0441\u043D\u044B\u0435 \u0440\u043E\u0431\u043E\u0442\u044B Visual Studio\\class 38\\class 38\\class 38.cpp",
+              "RelativeToolTip": "class 38\\class 38.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-21T19:20:16.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

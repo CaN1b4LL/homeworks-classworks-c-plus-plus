@@ -1,177 +1,109 @@
 #include "Directory.h"
 
-Directory::Directory(string filename) : filename(filename)
+Directory::Directory(string filename) : filename(filename), count(0)
 {
+	loadFromFile();
 }
 
 void Directory::addContact(const Contact& newContact)
 {
-	fstream file(filename, ios::out | ios::app);
-	if (file.is_open())
+	if (count < 400)
 	{
-		file << newContact.getCompanyName() << endl;
-		file << newContact.getOwner() << endl;
-		file << newContact.getPhone() << endl;
-		file << newContact.getAddress() << endl;
-		file << newContact.getActivity() << endl;
-		file << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-		file.close();
-		cout << "Contact successfully added to file." << endl;
+		contacts[count] = newContact;
+		count++;
+		saveToFile();
+		cout << "Contact successfully added!" << endl;
 	}
 	else
 	{
-		cout << "Error!" << endl;
+		cout << "Directiry is full!" << endl;
 	}
 }
 
 void Directory::showAll() const
 {
-	fstream file(filename, ios::in);
-	if (file.is_open())
+	if (count == 0)
 	{
-		string line;
-		bool isEmpty = true;
-		while (getline(file, line))
-		{
-			cout << line << endl;
-			isEmpty = false;
-		}
-		file.close();
-		if (isEmpty)
-			cout << "The directori is empty." << endl;
-		else
-			cout << "Error!" << endl;
+		cout << "The directory is empty." << endl;
+		return;
+	}
+
+	for (int i = 0; i < count; i++)
+	{
+		contacts[i].print();
 	}
 }
 
 void Directory::searchByCompanyName(const string& targetName) const
 {
-	fstream file(filename, ios::in);
-	if (!file.is_open())
+	for (int i = 0; i < count; i++)
 	{
-		cout << "Error opening file." << endl;
-	}
-
-	string comp, owner, phone, addr, act, sep;
-	bool found = false;
-	while (getline(file, comp) && getline(file, owner) && getline(file, phone) && getline(file, addr) &&
-		getline(file, act) && getline(file, sep))
-	{
-		if (comp == targetName)
+		if (contacts[i].getCompanyName() == targetName)
 		{
 			cout << "\nFound record:\n";
-			cout << "Company: " << comp << endl;
-			cout << "Owner: " << owner << endl;
-			cout << "Phone: " << phone << endl;
-			cout << "Address: " << addr << endl;
-			cout << "Actibity: " << act << endl;
-			cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-			found = true;
+			contacts[i].print();
 		}
-	}
-	file.close();
-
-	if (!found)
-	{
-		cout << "Company with name\"" << targetName << "\" not found." << endl;
 	}
 }
 
 void Directory::searchByOwner(const string& targetOwner) const
 {
-	fstream file(filename, ios::in);
-	if (!file.is_open())
+	for (int i = 0; i < count; i++)
 	{
-		cout << "Error opening file." << endl;
-	}
-
-	string comp, owner, phone, addr, act, sep;
-	bool found = false;
-	while (getline(file, comp) && getline(file, owner) && getline(file, phone) && getline(file, addr) &&
-		getline(file, act) && getline(file, sep))
-	{
-		if (owner == targetOwner)
+		if (contacts[i].getOwner() == targetOwner)
 		{
 			cout << "\nFound record:\n";
-			cout << "Company: " << comp << endl;
-			cout << "Owner: " << owner << endl;
-			cout << "Phone: " << phone << endl;
-			cout << "Address: " << addr << endl;
-			cout << "Actibity: " << act << endl;
-			cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-			found = true;
+			contacts[i].print();
 		}
-	}
-	file.close();
-
-	if (!found)
-	{
-		cout << "Owner \"" << targetOwner << "\" not found." << endl;
 	}
 }
 
 void Directory::searchByPhone(const string& targetPhone) const
 {
-	fstream file(filename, ios::in);
-	if (!file.is_open())
+	for (int i = 0; i < count; i++)
 	{
-		cout << "Error opening file." << endl;
-	}
-
-	string comp, owner, phone, addr, act, sep;
-	bool found = false;
-	while (getline(file, comp) && getline(file, owner) && getline(file, phone) && getline(file, addr) &&
-		getline(file, act) && getline(file, sep))
-	{
-		if (phone == targetPhone)
+		if (contacts[i].getPhone() == targetPhone)
 		{
 			cout << "\nFound record:\n";
-			cout << "Company: " << comp << endl;
-			cout << "Owner: " << owner << endl;
-			cout << "Phone: " << phone << endl;
-			cout << "Address: " << addr << endl;
-			cout << "Actibity: " << act << endl;
-			cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-			found = true;
+			contacts[i].print();
 		}
-	}
-	file.close();
-
-	if (!found)
-	{
-		cout << "Phone number \"" << targetPhone << "\" not found." << endl;
 	}
 }
 
 void Directory::searchByActivity(const string& targetActivity) const
 {
-	fstream file(filename, ios::in);
-	if (!file.is_open())
+	for (int i = 0; i < count; i++)
 	{
-		cout << "Error opening file." << endl;
-	}
-
-	string comp, owner, phone, addr, act, sep;
-	bool found = false;
-	while (getline(file, comp) && getline(file, owner) && getline(file, phone) && getline(file, addr) &&
-		getline(file, act) && getline(file, sep))
-	{
-		if (act == targetActivity)
+		if (contacts[i].getActivity() == targetActivity)
 		{
 			cout << "\nFound record:\n";
-			cout << "Company: " << comp << endl;
-			cout << "Owner: " << owner << endl;
-			cout << "Phone: " << phone << endl;
-			cout << "Address: " << addr << endl;
-			cout << "Actibity: " << act << endl;
-			cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
-			found = true;
+			contacts[i].print();
 		}
 	}
-	file.close();
+}
 
-	if (!found)
+void Directory::loadFromFile()
+{
+	count = 0;
+	fstream file(filename, ios::in | ios::binary);
+	if (!file.is_open())
+		return;
+	while (file.peek() != EOF && count < 400)
 	{
-		cout << "Activity \"" << targetActivity << "\" not found." << endl;
+		contacts[count].readFromFile(file);
+		if (file)
+			count++;
 	}
+	file.close();
+}
+
+void Directory::saveToFile() const
+{
+	fstream file(filename, ios::out | ios::binary | ios::trunc);
+	if (!file.is_open()) return;
+	for (int i = 0; i < count; i++)
+	{
+		contacts[i].writeToFile(file);
+	}
+	file.close();
 }

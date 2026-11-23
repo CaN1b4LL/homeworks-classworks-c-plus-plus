@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\домашние и классные роботы visual studio\\class 35\\class 35\\class 35.cpp",
+        "Source": "e:\\домашние и классные роботы visual studio\\classwork\\class 35\\class 35\\class 35.cpp",
         "ProvidedModule": "",
         "Includes": [
             "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\iostream",
@@ -129,8 +129,8 @@
             "e:\\windows kits\\10\\include\\10.0.26100.0\\ucrt\\locale.h",
             "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\ostream",
             "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\string",
-            "e:\\домашние и классные роботы visual studio\\class 35\\class 35\\contact.h",
-            "e:\\домашние и классные роботы visual studio\\class 35\\class 35\\directory.h",
+            "e:\\домашние и классные роботы visual studio\\classwork\\class 35\\class 35\\contact.h",
+            "e:\\домашние и классные роботы visual studio\\classwork\\class 35\\class 35\\directory.h",
             "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\fstream",
             "e:\\visual studio\\vc\\tools\\msvc\\14.51.36231\\include\\__msvc_filebuf.hpp"
         ],
